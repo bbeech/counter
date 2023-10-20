@@ -18,10 +18,10 @@ btns.forEach(function (btn) {
             count = 0;
         }
         if(count > 0){
-            value.style.color = "green";
+            value.style.color = "#96ceb4";
         }
         if(count < 0){
-            value.style.color = "red";
+            value.style.color = "#ff6f69";
         }
         if(count === 0){
             value.style.color = "whitesmoke";
